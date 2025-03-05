@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mogowithhibernate</groupId>
+  <artifactId>MongoWithHibernate</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+    <!-- Hibernate ORM -->
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>6.4.1.Final</version>
+    </dependency>
+
+   <dependency>
+    <groupId>org.hibernate.ogm</groupId>
+    <artifactId>hibernate-ogm-mongodb</artifactId>
+    <version>5.4.0.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.jboss.narayana.jta</groupId>
+    <artifactId>narayana-jta</artifactId>
+    <version>5.9.2.Final</version>
+</dependency>
+
+    <!-- MongoDB Java Driver -->
+    <dependency>
+        <groupId>org.mongodb</groupId>
+        <artifactId>mongodb-driver-sync</artifactId>
+        <version>4.7.1</version>
+    </dependency>
+
+    <!-- JPA API (Required for Hibernate OGM) -->
+    <dependency>
+        <groupId>jakarta.persistence</groupId>
+        <artifactId>jakarta.persistence-api</artifactId>
+        <version>3.1.0</version>
+    </dependency>
+
+    <!-- Logging (Optional) -->
+    <dependency>
+        <groupId>org.jboss.logging</groupId>
+        <artifactId>jboss-logging</artifactId>
+        <version>3.5.0.Final</version>
+    </dependency>
+    
+    <dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-entitymanager</artifactId>
+    <version>4.2.6.Final</version>
+</dependency>
+</dependencies>
+
+
+</project>
